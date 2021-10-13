@@ -3,12 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Indium Software/AndroidStudioProjects/NavigationComponent/Coffee/src/main/res/layout/coffee_item.xml" value="0.13858695652173914" />
+        <entry key="..\:/Users/Indium Software/AndroidStudioProjects/NavigationComponent/Coffee/src/main/res/layout/fragment_coffee_entry_dialog.xml" value="0.1" />
+        <entry key="..\:/Users/Indium Software/AndroidStudioProjects/NavigationComponent/Coffee/src/main/res/layout/fragment_coffee_list.xml" value="0.13858695652173914" />
         <entry key="..\:/Users/Indium Software/AndroidStudioProjects/NavigationComponent/app/src/main/res/drawable-v24/coffee_cup.xml" value="0.25833333333333336" />
         <entry key="..\:/Users/Indium Software/AndroidStudioProjects/NavigationComponent/app/src/main/res/drawable-v24/ic_android.xml" value="0.21354166666666666" />
         <entry key="..\:/Users/Indium Software/AndroidStudioProjects/NavigationComponent/app/src/main/res/layout/activity_coroutines_retrofit.xml" value="0.18697916666666667" />
         <entry key="..\:/Users/Indium Software/AndroidStudioProjects/NavigationComponent/app/src/main/res/layout/activity_main.xml" value="0.1793478260869565" />
         <entry key="..\:/Users/Indium Software/AndroidStudioProjects/NavigationComponent/app/src/main/res/layout/activity_motion_layout.xml" value="0.2265625" />
         <entry key="..\:/Users/Indium Software/AndroidStudioProjects/NavigationComponent/app/src/main/res/layout/activity_navigate_module.xml" value="0.2421875" />
+        <entry key="..\:/Users/Indium Software/AndroidStudioProjects/NavigationComponent/app/src/main/res/layout/activity_navigation_modules.xml" value="0.2265625" />
         <entry key="..\:/Users/Indium Software/AndroidStudioProjects/NavigationComponent/app/src/main/res/layout/activity_work_manager.xml" value="0.19739583333333333" />
         <entry key="..\:/Users/Indium Software/AndroidStudioProjects/NavigationComponent/app/src/main/res/layout/activity_worker.xml" value="0.19739583333333333" />
         <entry key="..\:/Users/Indium Software/AndroidStudioProjects/NavigationComponent/app/src/main/res/layout/deep_link_appwidget.xml" value="0.19739583333333333" />
@@ -22,8 +26,11 @@
         <entry key="..\:/Users/Indium Software/AndroidStudioProjects/NavigationComponent/app/src/main/res/layout/fragment_choose_recepient.xml" value="0.4" />
         <entry key="..\:/Users/Indium Software/AndroidStudioProjects/NavigationComponent/app/src/main/res/layout/fragment_choose_recepient2.xml" value="0.20572916666666666" />
         <entry key="..\:/Users/Indium Software/AndroidStudioProjects/NavigationComponent/app/src/main/res/layout/fragment_confirmation.xml" value="0.2421875" />
+        <entry key="..\:/Users/Indium Software/AndroidStudioProjects/NavigationComponent/app/src/main/res/layout/fragment_donut_entry_dialog.xml" value="0.2265625" />
+        <entry key="..\:/Users/Indium Software/AndroidStudioProjects/NavigationComponent/app/src/main/res/layout/fragment_donut_list.xml" value="0.2125" />
         <entry key="..\:/Users/Indium Software/AndroidStudioProjects/NavigationComponent/app/src/main/res/layout/fragment_main.xml" value="0.2421875" />
         <entry key="..\:/Users/Indium Software/AndroidStudioProjects/NavigationComponent/app/src/main/res/layout/fragment_progress.xml" value="0.2421875" />
+        <entry key="..\:/Users/Indium Software/AndroidStudioProjects/NavigationComponent/app/src/main/res/layout/fragment_selection.xml" value="0.18614130434782608" />
         <entry key="..\:/Users/Indium Software/AndroidStudioProjects/NavigationComponent/app/src/main/res/layout/fragment_specify_amount.xml" value="0.2421875" />
         <entry key="..\:/Users/Indium Software/AndroidStudioProjects/NavigationComponent/app/src/main/res/layout/fragment_view_balance.xml" value="0.2265625" />
         <entry key="..\:/Users/Indium Software/AndroidStudioProjects/NavigationComponent/app/src/main/res/layout/fragment_view_balance_frgament.xml" value="0.2421875" />
@@ -38,6 +45,7 @@
         <entry key="..\:/Users/Indium Software/AndroidStudioProjects/NavigationComponent/app/src/main/res/menu/main_menu.xml" value="0.19739583333333333" />
         <entry key="..\:/Users/Indium Software/AndroidStudioProjects/NavigationComponent/app/src/main/res/menu/nav_drawer_menu.xml" value="0.19739583333333333" />
         <entry key="..\:/Users/Indium Software/AndroidStudioProjects/NavigationComponent/app/src/main/res/menu/overflow_menu.xml" value="0.19739583333333333" />
+        <entry key="..\:/Users/Indium Software/AndroidStudioProjects/NavigationComponent/app/src/main/res/xml/shortcuts.xml" value="0.17604166666666668" />
         <entry key="..\:/Users/Indium Software/AndroidStudioProjects/NavigationComponent/app/src/main/res/xml/splash_01_animation.xml" value="0.2265625" />
       </map>
     </option>

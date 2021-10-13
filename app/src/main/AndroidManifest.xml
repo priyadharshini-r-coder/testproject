@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.NavigationComponent">
         <activity
+            android:name=".activity.NavigationActivity"
+            android:exported="true" />
+        <activity
             android:name=".dependencyinjection.main.view.DependencyInjectionActivity"
             android:exported="true" />
         <activity
@@ -30,18 +33,17 @@
             android:name=".activity.MainActivity"
             android:exported="true" />
         <activity
-            android:name=".activity.NavigationActivity"
-
+            android:name=".activity.NavigationModules"
             android:exported="true"
             android:value="@navigation/nav_graph">
-
             <intent-filter>
-
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <meta-data android:name="android.app.shortcuts"
+            android:resource="@xml/shortcuts" />
     </application>
 
 </manifest>

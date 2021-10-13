@@ -8,3 +8,5 @@ dependencyResolutionManagement {
 }
 rootProject.name = "NavigationComponent"
 include ':app'
+include ':Coffee'
+include ':Core'

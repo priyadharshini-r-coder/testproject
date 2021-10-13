@@ -9,12 +9,13 @@ import android.view.ViewGroup
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
+import com.example.core.model.Donut
 
 import com.example.navigationcomponent.R
 import com.example.navigationcomponent.database.SnackDatabase
 import com.example.navigationcomponent.databinding.FragmentDonutEntryDialogBinding
 import com.example.navigationcomponent.factory.DonutViewModelFactory
-import com.example.navigationcomponent.model.Donut
+
 import com.example.navigationcomponent.viewmodel.DonutEntryViewModel
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 

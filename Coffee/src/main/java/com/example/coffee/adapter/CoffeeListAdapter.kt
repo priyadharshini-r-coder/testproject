@@ -62,4 +62,3 @@ class CoffeeListAdapter (private var onEdit: (Coffee) -> Unit,
             return oldItem == newItem
         }
     }
-}

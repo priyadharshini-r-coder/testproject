@@ -1,5 +1,5 @@
 plugins {
-    id 'com.android.library'
+    id 'com.android.dynamic-feature'
     id 'kotlin-android'
     id 'kotlin-kapt'
 
@@ -39,7 +39,7 @@ android {
 
 dependencies {
     implementation project(":app")
-
+    implementation project(":Core")
 
     implementation 'androidx.core:core-ktx:1.6.0'
     implementation 'androidx.appcompat:appcompat:1.3.1'

@@ -39,8 +39,12 @@
         android:id="@+id/progressFragment"
         android:name="com.example.navigationcomponent.navigationmodules.ProgressFragment"
         android:label="ProgressFragment" />
-   <include-dynamic
-        android:id="@+id/coffeeGraph"
-        app:moduleName="coffee"
-        app:graphResName="coffee_graph"/>
+    <navigation android:id="@+id/navigation"
+        app:startDestination="@id/coffeeGraph">
+        <include-dynamic
+            android:id="@+id/coffeeGraph"
+
+            app:graphResName="coffee_graph"
+            app:moduleName="coffee" />
+    </navigation>
 </navigation>

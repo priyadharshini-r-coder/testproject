@@ -1,14 +1,11 @@
 package com.example.navigationcomponent.navigationmodules
 
-import androidx.lifecycle.LiveData
-import androidx.lifecycle.ViewModel
-import androidx.lifecycle.ViewModelProvider
-import androidx.lifecycle.viewModelScope
+import androidx.lifecycle.*
 import kotlinx.coroutines.launch
 
 class SelectionViewModel ( private val userPreferencesRepository: UserPreferencesRepository) : ViewModel() {
 
-  /*  fun saveCoffeeTrackerSelection(enabled: Boolean) {
+    fun saveCoffeeTrackerSelection(enabled: Boolean) {
         viewModelScope.launch {
             userPreferencesRepository.saveCoffeeTrackerSelection(enabled)
         }
@@ -16,7 +13,7 @@ class SelectionViewModel ( private val userPreferencesRepository: UserPreference
 
     fun checkCoffeeTrackerEnabled(): LiveData<UserPreferencesRepository.Selection> {
         return userPreferencesRepository.coffeeTrackerPreferencesFlow.asLiveData()
-    }*/
+    }
 }
 
 class SelectionViewModelFactory(

@@ -1,13 +1,11 @@
 package com.example.navigationcomponent.database
 
 import androidx.lifecycle.LiveData
-import androidx.room.Delete
-import androidx.room.Insert
-import androidx.room.Query
-import androidx.room.Update
+import androidx.room.*
+import com.example.core.model.Donut
 
-import com.example.navigationcomponent.model.Donut
 
+@Dao
 interface DonutDao {
     @Query("SELECT * FROM donut")
     fun getAll(): LiveData<List<Donut>>

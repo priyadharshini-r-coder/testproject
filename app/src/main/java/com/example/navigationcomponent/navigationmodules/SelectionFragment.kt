@@ -10,7 +10,7 @@ import androidx.navigation.findNavController
 import com.example.navigationcomponent.databinding.FragmentSelectionBinding
 
 class SelectionFragment:Fragment() {
-   /* override fun onCreateView(
+    override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -34,11 +34,11 @@ class SelectionFragment:Fragment() {
 
         binding.button.setOnClickListener { button ->
             val coffeeSelected = binding.checkBox.isChecked
-           // selectionViewModel.saveCoffeeTrackerSelection(coffeeSelected)
+           selectionViewModel.saveCoffeeTrackerSelection(coffeeSelected)
 
             button.findNavController().navigate(
                 SelectionFragmentDirections.actionSelectionFragmentToDonutList()
             )
         }
-    }*/
+    }
 }

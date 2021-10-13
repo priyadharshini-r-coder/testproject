@@ -5,9 +5,11 @@ import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
 import com.example.coffee.model.CoffeeDao
-import com.example.navigationcomponent.model.Donut
+import com.example.core.model.Coffee
+import com.example.core.model.Donut
 
-@Database(entities = arrayOf(Donut::class), version = 1)
+
+@Database(entities = arrayOf(Donut::class, Coffee::class), version = 1)
 abstract class SnackDatabase:RoomDatabase() {
     abstract fun donutDao(): DonutDao
 

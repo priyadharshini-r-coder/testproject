@@ -1,6 +1,6 @@
  package com.example.navigationcomponent.testing
 
-import com.manager.retrofitesting.model.api.ApiInterface
+
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 

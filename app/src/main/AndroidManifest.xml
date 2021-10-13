@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.NavigationComponent">
         <activity
+            android:name=".activity.NavigationModules"
+            android:exported="true" />
+        <activity
             android:name=".activity.NavigationActivity"
             android:exported="true" />
         <activity
@@ -33,7 +36,7 @@
             android:name=".activity.MainActivity"
             android:exported="true" />
         <activity
-            android:name=".activity.NavigationModules"
+            android:name=".activity.PagingActivity"
             android:exported="true"
             android:value="@navigation/nav_graph">
             <intent-filter>
@@ -42,7 +45,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <meta-data android:name="android.app.shortcuts"
+
+        <meta-data
+            android:name="android.app.shortcuts"
             android:resource="@xml/shortcuts" />
     </application>
 

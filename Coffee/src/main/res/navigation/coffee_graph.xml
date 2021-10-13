@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/coffeeList">
+    <fragment
+        android:id="@+id/coffeeList"
+        android:name="com.example.coffee.fragment.CoffeeList"
+        android:label="@string/coffee_list">
+        <action
+            android:id="@+id/action_coffeeList_to_coffeeEntryDialogFragment"
+            app:destination="@id/coffeeEntryDialogFragment" />
+    </fragment>
+    <dialog
+        android:id="@+id/coffeeEntryDialogFragment"
+        android:name="com.example.coffee.fragment.CoffeeEntryDialogFragment"
+        android:label="CoffeeEntryDialogFragment">
+        <argument
+            android:name="itemId"
+            android:defaultValue="-1L"
+            app:argType="long" />
+    </dialog>
+</navigation>

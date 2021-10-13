@@ -6,11 +6,12 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.lifecycle.Observer
 import androidx.work.*
-import com.anushka.workmanagerdemo1.CompressingWorker
-import com.anushka.workmanagerdemo1.DownloadingWorker
-import com.anushka.workmanagerdemo1.FilteringWorker
-import com.anushka.workmanagerdemo1.UploadWorker
+
 import com.example.navigationcomponent.R
+import com.example.navigationcomponent.workmanger.CompressingWorker
+import com.example.navigationcomponent.workmanger.DownloadingWorker
+import com.example.navigationcomponent.workmanger.FilteringWorker
+import com.example.navigationcomponent.workmanger.UploadWorker
 import java.util.concurrent.TimeUnit
 
 class WorkerActivity : AppCompatActivity() {

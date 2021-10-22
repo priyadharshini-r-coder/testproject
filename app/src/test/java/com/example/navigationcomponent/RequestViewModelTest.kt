@@ -6,7 +6,6 @@ import com.example.navigationcomponent.model.MainData
 import com.example.navigationcomponent.testing.ApiHelperImpl
 import com.example.navigationcomponent.testing.RetrofitBuilder
 import com.example.navigationcomponent.utils.Resource
-import com.example.navigationcomponent.viewmodel.RequestViewModel
 import com.manager.retrofitesting.MockResponseFileReader
 
 

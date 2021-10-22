@@ -4,9 +4,10 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.liveData
+import com.example.navigationcomponent.model.CountryCodeListResponse
 import com.example.navigationcomponent.retrofit.RetrofitBuilder
 import com.example.navigationcomponent.retrofit.RetrofitService
-import omnicurekotlin.example.com.userEndpoints.model.CountryCodeListResponse
+
 import retrofit2.Response
 
 class CoroutinesRetrofitViewModel : ViewModel() {

@@ -50,4 +50,29 @@
     <string name="installing_coffee_module">Pouring your first cup of coffee!</string>
     <string name="install_failed">Error installing the Coffee feature</string>
     <string name="install_cancelled">Installiation canceled</string>
+    <string name="hello_world">HelloWorld</string>
+    <string name="hello_worldUi">Hello UiAutomator!</string>
+    <string name="change_text">Change text</string>
+    <string name="type_something">type something…</string>
+    <string name="open_activity_and_change_text">Open activity and change text</string>
+    <string name="title_activity_realm">RealmActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Realm World</string>
+    <string name="nav_header_subtitle">priya@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Update Views</string>
+    <string name="menu_slideshow">Delete Views</string>
+    <string name="views_to_be_added">Views to be added</string>
+    <string name="views_to_be_deleted">Views to be deleted</string>
+    <string name="ok">Ok</string>
+    <string name="update_view_count">Update View count is %d</string>
+    <string name="get_latest_count">Get latest Count</string>
 </resources>

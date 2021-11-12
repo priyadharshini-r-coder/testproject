@@ -10,10 +10,37 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.JetpackCompose">
         <activity
+            android:name=".ui.accounts.TeamGroupChatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.accounts.ContactAdminActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.accounts.SystemALertActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.accounts.HandOffActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.accounts.ResetSuccessActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.accounts.AppointmentSuccessActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.accounts.AddPatientActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+        <activity
             android:name=".ComposeActivity"
             android:exported="true" />
         <activity
-            android:name=".MainActivity"
+            android:name=".ui.accounts.FilterActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.JetpackCompose.NoActionBar">

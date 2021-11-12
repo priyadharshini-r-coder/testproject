@@ -8,6 +8,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.ui.semantics.semantics
+import androidx.compose.ui.tooling.preview.Preview
 
 import com.example.compose.rally.data.Account
 
@@ -63,4 +64,10 @@ fun SingleAccountBody(account: Account) {
             color = row.color
         )
     }
+}
+@Preview(showBackground = true)
+@Composable
+fun DefaultPreview() {
+   // AccountsBody();
+
 }

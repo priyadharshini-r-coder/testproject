@@ -19,11 +19,8 @@ import com.example.jetpackcompose.MainScreen
 import com.example.jetpackcompose.ui.components.RallyTabRow
 import com.example.jetpackcompose.ui.theme.RallyTheme
 
-/**
- * This Activity recreates part of the Rally Material Study from
- * https://material.io/design/material-studies/rally.html
- */
-class RallyActivity : ComponentActivity() {
+
+class JetPackComposeActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
